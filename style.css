@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerflex {
+    display: flex;
+    font-family: Nunito;
+    justify-content: space-between;
+}
+
+.header1 {
+    flex: 0;
+
+}
+
+h1 {
+    font-family: Nunito;
+    font-weight: 700;
+}
+
+.headimg {
+    width: 100%;
+    flex: 0;
+}
+
+.item {
+    font-family: Nunito;
+}
