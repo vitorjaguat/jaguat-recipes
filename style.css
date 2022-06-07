@@ -68,3 +68,13 @@ footer {
 td {
     text-align: center;
 }
+
+/*RESPONSIVENESS*/
+@media (min-width: 900px) {
+    body {
+        width: 66%;
+        justify-content: center;
+        margin: 1.5em auto;
+    }
+
+}
