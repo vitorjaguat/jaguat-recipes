@@ -1,29 +1,70 @@
 body {
+    font-family: Nunito;
     display: flex;
     flex-direction: column;
+    margin: 3em;
+    padding: 0;
+    /* border: 1px solid lightcoral; */
+    background-color: #fff7f7;
 }
 
 .headerflex {
     display: flex;
-    font-family: Nunito;
+    align-items: flex-start;
     justify-content: space-between;
+    padding: 5px;
+    background-color: bisque;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: papayawhip;
+    padding-bottom: 90px;
 }
 
 .header1 {
-    flex: 0;
+    font-weight: bold;
 
 }
 
+
 h1 {
-    font-family: Nunito;
     font-weight: 700;
+    padding: 20px 20px;
+    text-align: center;
 }
 
 .headimg {
     width: 100%;
-    flex: 0;
+    overflow: hidden;
+    margin-bottom: 0.6em;
 }
 
 .item {
-    font-family: Nunito;
+    margin: 0.8em;
+}
+
+a {
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+a:hover {
+    color: brown;
+    text-decoration: wavy crimson 1px;
+}
+
+footer {
+    background-color: bisque;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+/*TABLES*/
+td {
+    text-align: center;
 }
