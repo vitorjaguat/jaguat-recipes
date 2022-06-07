@@ -70,7 +70,7 @@ td {
 }
 
 /*RESPONSIVENESS*/
-@media (min-width: 900px) {
+@media (min-width: 900px){
     body {
         width: 66%;
         justify-content: center;
