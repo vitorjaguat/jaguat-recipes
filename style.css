@@ -31,14 +31,13 @@ body {
 
 h1 {
     font-weight: 700;
-    padding: 20px 20px;
+    padding: 50px 20px;
     text-align: center;
 }
 
 .headimg {
     width: 100%;
     overflow: hidden;
-    margin-bottom: 0.6em;
 }
 
 .item {
